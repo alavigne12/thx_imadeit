@@ -2488,16 +2488,68 @@ input, select, textarea {
 		.button.fit {
 			width: 100%;
 		}
-
+/* DEFAULT BUTTON - Education */
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
-		}
+			color: #b880a9 !important;
+			/* CHANGES HOVER COLOR OF BUTTON TEXT */
+			box-shadow: inset 0 0 0 2px #b880a9;
+			/* CHANGES HOVER COLOR OF BUTTON outline */
 
+	}
+/* BUTTON COLOR 2 - Sewing */
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	button.color2:hover,
+	.button.color2:hover {
+		color: #3d998d !important;
+		/* CHANGES HOVER COLOR OF BUTTON TEXT */
+		box-shadow: inset 0 0 0 2px #3d998d;
+		/* CHANGES HOVER COLOR OF BUTTON outline */
+
+}
+
+/* BUTTON COLOR 3 - Video */
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	button.color3:hover,
+	.button.color3:hover {
+		color: #ec806d !important;
+		/* CHANGES HOVER COLOR OF BUTTON TEXT */
+		box-shadow: inset 0 0 0 2px #ec806d;
+		/* CHANGES HOVER COLOR OF BUTTON outline */
+
+}
+
+/* BUTTON COLOR 4 - Technology */
+	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	button.color4:hover,
+	.button.color4:hover {
+		color: #f8c07a !important;
+		/* CHANGES HOVER COLOR OF BUTTON TEXT */
+		box-shadow: inset 0 0 0 2px #f8c07a;
+		/* CHANGES HOVER COLOR OF BUTTON outline */
+
+	}
+
+	/* BUTTON COLOR 5 */
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button.color5:hover,
+		.button.color5:hover {
+			color: #ba367a !important;
+			/* CHANGES HOVER COLOR OF BUTTON TEXT */
+			box-shadow: inset 0 0 0 2px #ba367a;
+			/* CHANGES HOVER COLOR OF BUTTON outline */
+}
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
@@ -2619,7 +2671,7 @@ input, select, textarea {
 					opacity: 1.0;
 					/* Doesn't seem to do anything */
 					z-index: 1;
-					opacity: 0.8;
+					opacity: .9;
 					/* Controls opacity of tile ontop */
 				}
 
@@ -2709,17 +2761,17 @@ input, select, textarea {
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
-
+				/* Education Tiles */
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #b880a9;
 			}
-
+				/* Tech Tiles */
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #f8c07a;
 			}
-
+				/* Video Tiles */
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #ec806d;
 			}
 
 			.tiles article.style4 > .image:before {

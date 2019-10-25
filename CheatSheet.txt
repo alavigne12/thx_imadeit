@@ -1,0 +1,17 @@
+Education
+Default button - L2491
+Color #b880a9 
+Tile = Style1
+
+
+Tech
+Button color 4 - L2529
+Color #f8c07a
+Tile = Style2
+
+Video
+Button color 3 - L2516
+Color
+Tile = Style3
+
+
